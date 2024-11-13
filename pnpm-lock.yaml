@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      '@kibamail/colors':
+        specifier: ^1.0.0
+        version: 1.0.0
     devDependencies:
       '@types/node':
         specifier: ^22.9.0
@@ -330,6 +334,9 @@ packages:
 
   '@jridgewell/sourcemap-codec@1.5.0':
     resolution: {integrity: sha512-gv3ZRaISU3fjPAgNsriBRqGWQL6quFx04YMPW/zD8XMLsU32mhCCbfbO6KZFLjvYpCZ8zyDEgqsgf+PwPaM7GQ==}
+
+  '@kibamail/colors@1.0.0':
+    resolution: {integrity: sha512-G9QkqRtpqAJcj36yVVKWNJx4i+psKrCe8wul1A9C8f5lE9upNaCnNOB1cU3au1ajf9pWQXyhYVZklMwbX0F8GQ==}
 
   '@microsoft/api-extractor-model@7.29.8':
     resolution: {integrity: sha512-t3Z/xcO6TRbMcnKGVMs4uMzv/gd5j0NhMiJIGjD4cJMeFJ1Hf8wnLSx37vxlRlL0GWlGJhnFgxvnaL6JlS+73g==}
@@ -981,6 +988,8 @@ snapshots:
     optional: true
 
   '@jridgewell/sourcemap-codec@1.5.0': {}
+
+  '@kibamail/colors@1.0.0': {}
 
   '@microsoft/api-extractor-model@7.29.8(@types/node@22.9.0)':
     dependencies:
